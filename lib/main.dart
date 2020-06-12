@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'cover_page.dart';
+import 'welcome_page.dart';
 import 'home_page.dart';
 
 void main() => runApp(MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.pink,
       ),
       debugShowCheckedModeBanner: false,
-      home: CoverPage(),
+      home: WelcomePage(),
       routes: {
         '/home': (context) => HomePage(),
       },

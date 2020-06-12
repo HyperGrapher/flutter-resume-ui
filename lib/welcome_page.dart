@@ -1,7 +1,7 @@
 import 'package:cvapp/widgets/info_line.dart';
 import 'package:flutter/material.dart';
 
-class CoverPage extends StatelessWidget {
+class WelcomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -73,7 +73,7 @@ class CoverPage extends StatelessWidget {
                             Navigator.pushNamed(context, '/home');
                           },
                           child: Text(
-                            "Welcome",
+                            "Hoşgeldiniz",
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
                               fontSize: 20.0,
